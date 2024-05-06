@@ -1,0 +1,49 @@
+object FrameCalendarioDay: TFrameCalendarioDay
+  HitTest = False
+  Size.Width = 100.000000000000000000
+  Size.Height = 75.000000000000000000
+  Size.PlatformDefault = False
+  object RBackground: TRectangle
+    Align = Client
+    Fill.Color = xFF24242C
+    HitTest = False
+    Size.Width = 100.000000000000000000
+    Size.Height = 75.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 10.000000000000000000
+    YRadius = 10.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 100.000000000000000000
+    Size.Height = 75.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LblNumeroDia: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      Margins.Bottom = 20.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 34.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = '28'
+      TabOrder = 1
+    end
+    object LblNomeDia: TLabel
+      Align = Bottom
+      StyledSettings = [Family, Style]
+      Position.Y = 47.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Segunda-Feira'
+      TabOrder = 0
+    end
+  end
+end

@@ -1,0 +1,460 @@
+object FrmAgendamento: TFrmAgendamento
+  Left = 0
+  Top = 0
+  Caption = 'Perfil'
+  ClientHeight = 800
+  ClientWidth = 480
+  Fill.Kind = Solid
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object LoBase: TLayout
+    Align = Client
+    Size.Width = 480.000000000000000000
+    Size.Height = 800.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Contents
+      Fill.Color = xFF191921
+      Size.Width = 480.000000000000000000
+      Size.Height = 800.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object LoTopo: TLayout
+      Align = Top
+      Size.Width = 480.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object SkLabel1: TSkLabel
+        Align = Contents
+        Size.Width = 480.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style]
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Words = <
+          item
+            Text = 'Agendamento'
+          end>
+      end
+      object Rectangle2: TRectangle
+        Align = Contents
+        Fill.Color = xFFF2F2F2
+        Size.Width = 480.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Visible = False
+      end
+      object Layout1: TLayout
+        Align = Right
+        Margins.Right = 10.000000000000000000
+        Position.X = 416.000000000000000000
+        Size.Width = 54.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle19: TRectangle
+          Align = Center
+          Fill.Bitmap.Bitmap.PNG = {
+            89504E470D0A1A0A0000000D494844520000001400000019080600000031170E
+            D30000000473424954080808087C0864880000018D49444154388DAD95414EDB
+            401486FFFF4910011BAF90B2736F30DC209C806C80ECCA0D524E90E604C00980
+            5DC4066E80B9C1DC205E2045EDCA9BB62A52E7EF220E38C4139C906F35B2DFFB
+            E6597EF38688D073934E301E51E8024801408027E919C270E4DB795D1EDF3FE8
+            BA71D2B29DEF10FAB1CDA69976F937FC1A3EF82F4554D875E3649B3B8F04DC52
+            598900FFA23F8755A955035AB67BD1545656E35AB637A8ADB0E726A9C87153D9
+            9C443A1CF9763657A1CC06D18C0F08E0D16CFDF6C952BAAE9064675158B6C67A
+            28A9136E848A90493C6C3902E62B3C76CFAE5AF6AA10487A6ED279159A6DADFD
+            8767881C00007B6E7226F2FAB3C2A9359C9B68CBCFEC2AD0FA06A8F1516B406A
+            008B8FE39A6380FCC66C426694869BF3D98D8D7C3B83C2F9E7542C207CBBF3FB
+            B773E32BC0BE4EE7A1120029C864A1E185BC5CE5000B01FE05BFAFDE4FEE8DB1
+            70A75439753FFB8212585965600130BFF3FBB72B0B4FDC8F2EA9FBBA77929DC5
+            A4D1F16508BEBE475918FE3DC5F3228C7C3BA7C201846C26829051E120762703
+            C07F987887D0B74985C80000000049454E44AE426082}
+          Fill.Bitmap.WrapMode = TileOriginal
+          Fill.Kind = Bitmap
+          HitTest = False
+          Size.Width = 20.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Visible = False
+        end
+      end
+      object Layout3: TLayout
+        Align = Left
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object BtnBack: TRectangle
+          Align = Center
+          Cursor = crHandPoint
+          Fill.Bitmap.Bitmap.PNG = {
+            89504E470D0A1A0A0000000D494844520000001E0000001E08060000003B30AE
+            A20000000473424954080808087C0864880000025B494441544889CDD6BD4E1B
+            411405E073EE2C5E899F0603D2A245328D29808ACA551E8A57484A1E8A8A8ACA
+            34E0022CADD632642324DB4436337353C4B6083878EC2C28A7DBD5DCF966F6F7
+            120169B55A711CC755EF7DCD18934451B46EAD8D01208AA2A173AEB0D6FE50D5
+            7C7F7FFF2E644ECE03D7D6D68E481E4DA07911911E80EB4AA5D2DADEDEEE2D0C
+            67595637C63442C1590B50D5CB344D6F82E16EB7DB188D46C7CB806F00B299A6
+            E9C55CB8D3E97CB1D61E94814E1245D1759224E72FCFC9CB836EB7DB281B0500
+            6BED4196658D99709665F5B22EEFACA8EA719665F53FE08787870D92271F85BE
+            4843552B53F8F9F9B9EEBDDF586626EFFD2AC9FAFC9180AAC6799E1F4D61550D
+            2A7C1D634C6A8CF9A6AAA724D340FC58552BD2E9746ACBECD618937AEF4F5575
+            154001E067201CB7DBEDAA38E7927F45499EA96A115A1F45514D9C735B9F8902
+            80AA26628CD9FC4C1400486E88AA067D8B4956CB4081DFF759E60F9B26E8E109
+            8D901C860C54D527113923F904A03A7E85AACBA02487A2AAFDD002E75C56125E
+            08C97C918A92F042BCF7ED058B66E2DEFBD5D07A11C9656F6FEF7BE87D7E0F37
+            C6847E327BBBBBBB6D21391291AB45E1090EE0EBF8D59AD9E2BC8E31E61A18FF
+            249224692EB36B0050D5221455D5DECACACACD14263902F0A62F2A3B2272B9B3
+            B3D39FC20090A6E90DC9E647A1E3A66F7A65FE8F660F009224392F73E7249BAF
+            51604E43EFBD3F21B9544B347E582F166AE827B9BFBF5FB7D61E586BEBA10B20
+            3924D97C7C7CBC3A3C3C1CFD755CC86400707B7B5B239990DC32C66C4E7EA724
+            87AADA77CEE500EE068341F11E38C92F28B36A0723CA8D8B0000000049454E44
+            AE426082}
+          Fill.Bitmap.WrapMode = TileOriginal
+          Fill.Kind = Bitmap
+          Size.Width = 30.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          OnClick = BtnBackClick
+        end
+      end
+    end
+    object LoRodape: TLayout
+      Align = Bottom
+      Position.Y = 685.000000000000000000
+      Size.Width = 480.000000000000000000
+      Size.Height = 115.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Layout6: TLayout
+        Align = Client
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Size.Width = 460.000000000000000000
+        Size.Height = 115.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Layout10: TLayout
+          Align = Top
+          Size.Width = 340.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object SkLabel5: TSkLabel
+            Align = Client
+            Size.Width = 340.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family]
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.Weight = Bold
+            TextSettings.FontColor = claWhite
+            Words = <
+              item
+                Text = 'Op'#231#245'es escolhidas'
+              end>
+          end
+        end
+        object Layout11: TLayout
+          Align = Client
+          Margins.Top = 5.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 77.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Layout12: TLayout
+            Align = Top
+            Size.Width = 340.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object LblDataeHora: TSkLabel
+              Align = Client
+              Size.Width = 340.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              StyledSettings = [Family]
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.Weight = Light
+              TextSettings.FontColor = claWhite
+              TextSettings.HorzAlign = Center
+              Words = <
+                item
+                  Name = 'Item 0'
+                  Text = 'Data: '
+                end
+                item
+                  Font.Weight = Semibold
+                  Name = 'Item 1'
+                  StyledSettings = [Family, Size, FontColor]
+                  Text = '20/02/2024'
+                end
+                item
+                  Name = 'Item 2'
+                  Text = ' '#224's '
+                end
+                item
+                  Font.Weight = Semibold
+                  Name = 'Item 3'
+                  StyledSettings = [Family, Size, FontColor]
+                  Text = '14:00'
+                end>
+            end
+          end
+          object Layout14: TLayout
+            Align = Top
+            Position.Y = 33.000000000000000000
+            Size.Width = 340.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object LblNProfissional: TSkLabel
+              Align = Client
+              Size.Width = 340.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              StyledSettings = [Family]
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.Weight = Light
+              TextSettings.FontColor = claWhite
+              TextSettings.HorzAlign = Center
+              Words = <
+                item
+                  Name = 'Item 0'
+                  Text = 'Profissional '
+                end
+                item
+                  Font.Weight = Semibold
+                  Name = 'Item 1'
+                  StyledSettings = [Family, Size, FontColor]
+                  Text = 'John Marc'
+                end>
+            end
+          end
+        end
+        object Layout15: TLayout
+          Align = MostRight
+          Margins.Top = 30.000000000000000000
+          Margins.Bottom = 30.000000000000000000
+          Position.X = 340.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 55.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object BtnContinuar: TRectangle
+            Align = Client
+            Cursor = crHandPoint
+            Fill.Color = xFF5731E8
+            Size.Width = 120.000000000000000000
+            Size.Height = 55.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            XRadius = 10.000000000000000000
+            YRadius = 10.000000000000000000
+            object Label1: TLabel
+              Align = Client
+              StyledSettings = [Family, Style]
+              Locked = True
+              Size.Width = 120.000000000000000000
+              Size.Height = 55.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.FontColor = claWhite
+              TextSettings.HorzAlign = Center
+              Text = 'Confirmar'
+              TabOrder = 0
+            end
+          end
+        end
+      end
+    end
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Size.Width = 480.000000000000000000
+      Size.Height = 625.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      ShowScrollBars = False
+      Viewport.Width = 480.000000000000000000
+      Viewport.Height = 625.000000000000000000
+      object LoCorpo: TLayout
+        Align = Client
+        Size.Width = 480.000000000000000000
+        Size.Height = 625.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Layout5: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 460.000000000000000000
+          Size.Height = 110.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object LstData: TListBox
+            Align = Client
+            Size.Width = 460.000000000000000000
+            Size.Height = 75.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'transparentlistboxstyle'
+            TabOrder = 0
+            ShowScrollBars = False
+            DisableFocusEffect = True
+            DefaultItemStyles.ItemStyle = ''
+            DefaultItemStyles.GroupHeaderStyle = ''
+            DefaultItemStyles.GroupFooterStyle = ''
+            ListStyle = Horizontal
+            OnItemClick = LstDataItemClick
+            Viewport.Width = 460.000000000000000000
+            Viewport.Height = 75.000000000000000000
+          end
+          object Layout7: TLayout
+            Align = Top
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 460.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object SkLabel4: TSkLabel
+              Align = Client
+              Size.Width = 460.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              StyledSettings = [Family]
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.Weight = Bold
+              TextSettings.FontColor = claWhite
+              Words = <
+                item
+                  Text = 'Escolha a data'
+                end>
+            end
+          end
+        end
+        object LoPro: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 135.000000000000000000
+          Size.Width = 460.000000000000000000
+          Size.Height = 145.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object LstProfissional: TListBox
+            Align = Client
+            Size.Width = 460.000000000000000000
+            Size.Height = 110.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'transparentlistboxstyle'
+            TabOrder = 0
+            ShowScrollBars = False
+            DisableFocusEffect = True
+            DefaultItemStyles.ItemStyle = ''
+            DefaultItemStyles.GroupHeaderStyle = ''
+            DefaultItemStyles.GroupFooterStyle = ''
+            ListStyle = Horizontal
+            OnItemClick = LstProfissionalItemClick
+            Viewport.Width = 460.000000000000000000
+            Viewport.Height = 110.000000000000000000
+          end
+          object Layout4: TLayout
+            Align = Top
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 460.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object SkLabel2: TSkLabel
+              Align = Client
+              Size.Width = 460.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              StyledSettings = [Family]
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.Weight = Bold
+              TextSettings.FontColor = claWhite
+              Words = <
+                item
+                  Text = 'Escolha o profissional'
+                end>
+            end
+          end
+        end
+        object LoHour: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 295.000000000000000000
+          Size.Width = 460.000000000000000000
+          Size.Height = 300.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object LstHorario: TListBox
+            Align = Client
+            Size.Width = 460.000000000000000000
+            Size.Height = 265.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'transparentlistboxstyle'
+            TabOrder = 0
+            ShowScrollBars = False
+            Columns = 5
+            DisableFocusEffect = True
+            DefaultItemStyles.ItemStyle = ''
+            DefaultItemStyles.GroupHeaderStyle = ''
+            DefaultItemStyles.GroupFooterStyle = ''
+            OnItemClick = LstHorarioItemClick
+            Viewport.Width = 460.000000000000000000
+            Viewport.Height = 265.000000000000000000
+          end
+          object Layout9: TLayout
+            Align = Top
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 460.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object SkLabel3: TSkLabel
+              Align = Client
+              Size.Width = 460.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              StyledSettings = [Family]
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.Weight = Bold
+              TextSettings.FontColor = claWhite
+              Words = <
+                item
+                  Text = 'Escolha o horario'
+                end>
+            end
+          end
+        end
+      end
+    end
+  end
+end

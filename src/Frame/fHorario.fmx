@@ -1,0 +1,36 @@
+object FrameHorario: TFrameHorario
+  HitTest = False
+  Size.Width = 90.000000000000000000
+  Size.Height = 40.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 90.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object RecBackground: TRectangle
+      Align = Client
+      Fill.Color = xFF24242C
+      HitTest = False
+      Size.Width = 90.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object LblHora: TLabel
+        Align = Client
+        StyledSettings = [Family, Style]
+        Size.Width = 90.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = '08:00'
+        TabOrder = 0
+      end
+    end
+  end
+end
