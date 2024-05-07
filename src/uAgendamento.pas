@@ -27,7 +27,6 @@ type
     Rectangle19: TRectangle;
     SkLabel1: TSkLabel;
     Layout3: TLayout;
-    BtnBack: TRectangle;
     LoPro: TLayout;
     LstProfissional: TListBox;
     Layout4: TLayout;
@@ -48,14 +47,17 @@ type
     LblDataeHora: TSkLabel;
     LblNProfissional: TSkLabel;
     VertScrollBox1: TVertScrollBox;
+    BtnVoltar: TRectangle;
+    ImgVoltar: TImage;
     procedure FormCreate(Sender: TObject);
     procedure LstDataItemClick(const Sender: TCustomListBox;
       const Item: TListBoxItem);
-    procedure BtnBackClick(Sender: TObject);
     procedure LstHorarioItemClick(const Sender: TCustomListBox;
       const Item: TListBoxItem);
     procedure LstProfissionalItemClick(const Sender: TCustomListBox;
       const Item: TListBoxItem);
+    procedure BtnVoltarClick(Sender: TObject);
+    procedure BtnContinuarClick(Sender: TObject);
   private
     procedure AdicionarFrameCalendario(DataListada: TDate);
     procedure ListarDiaSemana;
@@ -80,7 +82,7 @@ var
 implementation
 
 uses DataModulo.Global,
-     fCalendarioDay, fHorario, fProfissional;
+     fCalendarioDay, fHorario, fProfissional, uCheckout;
 
 {$R *.fmx}
 
@@ -95,12 +97,6 @@ begin
 
     LoPro.Visible  := False;
     LoHour.Visible := False;
-end;
-
-procedure TFrmAgendamento.BtnBackClick(Sender: TObject);
-begin
-    Close;
-    FrmAgendamento := nil;
 end;
 
 function TFrmAgendamento.GetWeekNumber(aDate: TDateTime): Integer;
@@ -254,6 +250,19 @@ begin
     Frame.Align := TAlignLayout.Client;
     Frame.LblNome.Text := Nome;
     LstProfissional.AddObject(Item);
+end;
+
+procedure TFrmAgendamento.BtnContinuarClick(Sender: TObject);
+begin
+    if NOT(Assigned(FrmCheckout)) then
+       Application.CreateForm(TFrmCheckout, FrmCheckout);
+    FrmCheckout.Show;
+end;
+
+procedure TFrmAgendamento.BtnVoltarClick(Sender: TObject);
+begin
+    Close;
+    FrmAgendamento := nil;
 end;
 
 procedure TFrmAgendamento.LstProfissionalItemClick(const Sender: TCustomListBox;

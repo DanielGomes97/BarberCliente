@@ -369,10 +369,6 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="uApagarEssaUnit.pas">
-            <Form>Form1</Form>
-            <FormType>fmx</FormType>
-        </DCCReference>
         <DCCReference Include="uCheckout.pas">
             <Form>FrmCheckout</Form>
             <FormType>fmx</FormType>

@@ -89,6 +89,8 @@ type
     VertScrollBox3: TVertScrollBox;
     Layout9: TLayout;
     Rectangle11: TRectangle;
+    Layout3: TLayout;
+    Label1: TLabel;
     procedure BtnVoltarClick(Sender: TObject);
     procedure BtnInicioClick(Sender: TObject);
     procedure BtnPesquisaClick(Sender: TObject);
@@ -216,7 +218,7 @@ begin
     ListarProximoAVoce;
 
     //verificar se tem agendamento ativo..
-    FillRGBEffect3.Color := xCorRED;
+    //FillRGBEffect3.Color := xCorRED;
 end;
 
 procedure TFrmPrincipal.AdicionarRecomendado(CodLoja: Integer;

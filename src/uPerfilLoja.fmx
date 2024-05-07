@@ -1,7 +1,7 @@
 object FrmPerfilLoja: TFrmPerfilLoja
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Perfil da Loja'
   ClientHeight = 800
   ClientWidth = 480
   Fill.Kind = Solid
@@ -17233,7 +17233,6 @@ object FrmPerfilLoja: TFrmPerfilLoja
         TextSettings.Font.Weight = Bold
         TextSettings.FontColor = claWhite
         TextSettings.HorzAlign = Center
-        TextSettings.VertAlign = Trailing
         Words = <
           item
             Text = 'Nome da barbearia'

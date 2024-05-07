@@ -24,7 +24,6 @@ uses
   uFormat in 'Unit\uFormat.pas',
   uLoading in 'Unit\uLoading.pas',
   fMensagem in 'Unit\fMensagem.pas' {FrameMensagem: TFrame},
-  uApagarEssaUnit in 'uApagarEssaUnit.pas' {Form1},
   uCheckout in 'uCheckout.pas' {FrmCheckout},
   fDetalhesAgendamento in 'Frame\fDetalhesAgendamento.pas' {FrameDetalhesAgendamento: TFrame};
 
