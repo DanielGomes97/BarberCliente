@@ -460,7 +460,6 @@ begin
     TLoading.Hide;
 end;
 
-
 procedure TFrmPrincipal.ListarStatusAgendado;
 begin
     LstStatusAgendamento.Items.Clear;
@@ -471,7 +470,6 @@ begin
                       '19:30',
                       35.00);
 end;
-
 
 procedure TFrmPrincipal.LstProximoItemClick(const Sender: TCustomListBox; const Item: TListBoxItem);
 begin
