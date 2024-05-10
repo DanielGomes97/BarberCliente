@@ -1076,7 +1076,7 @@ object FrmPrincipal: TFrmPrincipal
       'LockingMode=Normal'
       'DriverID=SQLite')
     LoginPrompt = False
-    Left = 381
-    Top = 46
+    Left = 325
+    Top = 22
   end
 end
