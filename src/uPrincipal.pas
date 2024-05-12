@@ -109,7 +109,7 @@ type
     procedure AdicionarRecomendado(CodLoja: Integer; NomeLoja, Descricao, Distancia, Imagem: String; Avaliacao: Double);
     procedure ListarRecomendados;
     procedure AnimaBarMenu(IrPara: TLayout);
-    procedure AdicionarProximo(CodBarbearia: Integer; NomeLoja, Descricao, DistanciaKM, DistanciaMin, Imagem: String; Avaliacao: Double);
+    procedure AdicionarProximo(CodBarbearia: Integer; NomeLoja, Endereco, DistanciaKM, DistanciaMin, Imagem: String; Avaliacao: Double);
     procedure ListarProximoAVoce;
     procedure TerminateThread(Sender: TObject);
     procedure VerificarConexaoServidor;
@@ -303,7 +303,7 @@ end;
 
 procedure TFrmPrincipal.AdicionarProximo(CodBarbearia: Integer;
                                          NomeLoja,
-                                         Descricao,
+                                         Endereco,
                                          DistanciaKM,
                                          DistanciaMin,
                                          Imagem: String;
@@ -325,11 +325,10 @@ begin
     Frame.Parent := Item;
     Frame.Align := TAlignLayout.Client;
     Frame.LblNomeLoja.Text := NomeLoja;
-    //Frame.LblDescricao.Text := Descricao;
+    Frame.LblEndereco.Text := Endereco;
     Frame.LblDistanciaKM.Text := Distanciakm;
     Frame.LblDistanciaMin.Text := DistanciaMin;
     //Frame.LblAvaliacao.Text := Avaliacao.ToString;
-
     LstProximo.AddObject(Item);
 end;
 
