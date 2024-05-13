@@ -36,14 +36,14 @@ object FrameDetalhesAgendamento: TFrameDetalhesAgendamento
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 5.000000000000000000
         Position.X = 10.000000000000000000
-        Position.Y = 10.000000000000000000
+        Position.Y = 11.000000000000000000
         Size.Width = 434.000000000000000000
         Size.Height = 35.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 3
         object Rectangle3: TRectangle
           Align = Bottom
-          Fill.Color = xFF69696D
+          Fill.Color = xFF3B3B3B
           Margins.Top = 6.000000000000000000
           Position.Y = 34.000000000000000000
           Size.Width = 434.000000000000000000
@@ -54,22 +54,23 @@ object FrameDetalhesAgendamento: TFrameDetalhesAgendamento
         object Label10: TLabel
           Align = Left
           StyledSettings = [Family, Style]
-          Size.Width = 97.000000000000000000
+          Size.Width = 100.000000000000000000
           Size.Height = 28.000000000000000000
           Size.PlatformDefault = False
           TextSettings.FontColor = xFF939398
           TextSettings.Trimming = None
-          Text = 'Servi'#231'o'
+          Text = 'SERVI'#199'O'
           TabOrder = 0
         end
         object LblServico: TLabel
           Align = Client
-          StyledSettings = [Family, Style]
-          Size.Width = 337.000000000000000000
+          StyledSettings = [Family]
+          Margins.Right = 1.000000000000000000
+          Size.Width = 333.000000000000000000
           Size.Height = 28.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Size = 14.000000000000000000
-          TextSettings.FontColor = claWhite
+          TextSettings.FontColor = claLightgray
           TextSettings.HorzAlign = Trailing
           TextSettings.Trimming = None
           Text = 'Corte americano e barba completa'
@@ -82,14 +83,14 @@ object FrameDetalhesAgendamento: TFrameDetalhesAgendamento
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 5.000000000000000000
         Position.X = 10.000000000000000000
-        Position.Y = 50.000000000000000000
+        Position.Y = 51.000000000000000000
         Size.Width = 434.000000000000000000
         Size.Height = 35.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 2
         object Rectangle4: TRectangle
           Align = Bottom
-          Fill.Color = xFF69696D
+          Fill.Color = xFF3B3B3B
           Margins.Top = 6.000000000000000000
           Position.Y = 34.000000000000000000
           Size.Width = 434.000000000000000000
@@ -100,22 +101,23 @@ object FrameDetalhesAgendamento: TFrameDetalhesAgendamento
         object Label12: TLabel
           Align = Left
           StyledSettings = [Family, Style]
-          Size.Width = 97.000000000000000000
+          Size.Width = 100.000000000000000000
           Size.Height = 28.000000000000000000
           Size.PlatformDefault = False
           TextSettings.FontColor = xFF939398
           TextSettings.Trimming = None
-          Text = 'Profissional'
+          Text = 'PROFISSIONAL'
           TabOrder = 0
         end
         object LblProfissional: TLabel
           Align = Client
-          StyledSettings = [Family, Style]
-          Size.Width = 337.000000000000000000
+          StyledSettings = [Family]
+          Margins.Right = 1.000000000000000000
+          Size.Width = 333.000000000000000000
           Size.Height = 28.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Size = 14.000000000000000000
-          TextSettings.FontColor = claWhite
+          TextSettings.FontColor = claLightgray
           TextSettings.HorzAlign = Trailing
           TextSettings.Trimming = None
           Text = 'Adriano Rocha'
@@ -128,14 +130,14 @@ object FrameDetalhesAgendamento: TFrameDetalhesAgendamento
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 5.000000000000000000
         Position.X = 10.000000000000000000
-        Position.Y = 130.000000000000000000
+        Position.Y = 131.000000000000000000
         Size.Width = 434.000000000000000000
         Size.Height = 35.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 1
         object Rectangle5: TRectangle
           Align = Bottom
-          Fill.Color = xFF69696D
+          Fill.Color = xFF3B3B3B
           Margins.Top = 6.000000000000000000
           Position.Y = 34.000000000000000000
           Size.Width = 434.000000000000000000
@@ -146,22 +148,23 @@ object FrameDetalhesAgendamento: TFrameDetalhesAgendamento
         object Label14: TLabel
           Align = Left
           StyledSettings = [Family, Style]
-          Size.Width = 97.000000000000000000
+          Size.Width = 100.000000000000000000
           Size.Height = 28.000000000000000000
           Size.PlatformDefault = False
           TextSettings.FontColor = xFF939398
           TextSettings.Trimming = None
-          Text = 'Valor total'
+          Text = 'VALOR TOTAL'
           TabOrder = 0
         end
         object LblValor: TLabel
           Align = Client
-          StyledSettings = [Family, Style]
-          Size.Width = 337.000000000000000000
+          StyledSettings = [Family]
+          Margins.Right = 1.000000000000000000
+          Size.Width = 333.000000000000000000
           Size.Height = 28.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Size = 14.000000000000000000
-          TextSettings.FontColor = claWhite
+          TextSettings.FontColor = claLightgray
           TextSettings.HorzAlign = Trailing
           TextSettings.Trimming = None
           Text = 'R$ 50,00'
@@ -174,14 +177,14 @@ object FrameDetalhesAgendamento: TFrameDetalhesAgendamento
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 5.000000000000000000
         Position.X = 10.000000000000000000
-        Position.Y = 90.000000000000000000
+        Position.Y = 91.000000000000000000
         Size.Width = 434.000000000000000000
         Size.Height = 35.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
         object Rectangle6: TRectangle
           Align = Bottom
-          Fill.Color = xFF69696D
+          Fill.Color = xFF3B3B3B
           Margins.Top = 6.000000000000000000
           Position.Y = 34.000000000000000000
           Size.Width = 434.000000000000000000
@@ -192,27 +195,36 @@ object FrameDetalhesAgendamento: TFrameDetalhesAgendamento
         object Label16: TLabel
           Align = Left
           StyledSettings = [Family, Style]
-          Size.Width = 97.000000000000000000
+          Size.Width = 100.000000000000000000
           Size.Height = 28.000000000000000000
           Size.PlatformDefault = False
           TextSettings.FontColor = xFF939398
           TextSettings.Trimming = None
-          Text = 'Data e Hor'#225'rio'
+          Text = 'DATA E HOR'#193'RIO'
           TabOrder = 0
         end
         object LblData: TLabel
           Align = Client
-          StyledSettings = [Family, Style]
-          Size.Width = 337.000000000000000000
+          StyledSettings = [Family]
+          Margins.Right = 1.000000000000000000
+          Size.Width = 333.000000000000000000
           Size.Height = 28.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Size = 14.000000000000000000
-          TextSettings.FontColor = claWhite
+          TextSettings.FontColor = claLightgray
           TextSettings.HorzAlign = Trailing
           TextSettings.Trimming = None
           Text = '22/04/2024 '#224's 15:30'
           TabOrder = 1
         end
+      end
+      object Rectangle7: TRectangle
+        Align = Top
+        Fill.Color = xFF3B3B3B
+        Size.Width = 454.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
       end
     end
     object Layout5: TLayout

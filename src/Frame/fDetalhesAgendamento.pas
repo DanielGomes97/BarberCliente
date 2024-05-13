@@ -37,6 +37,7 @@ type
     Rectangle6: TRectangle;
     Label16: TLabel;
     LblData: TLabel;
+    Rectangle7: TRectangle;
   private
     { Private declarations }
   public
